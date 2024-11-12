@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+   
+}
+
+.pomodoro-card {
+    background-color: rgba(255, 255, 255, 0.2); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    border: solid 1px white;
+    color: white;
+    padding: 20px;
+     border: solid;
+    border-color: black;
+}
+
+h1 {
+    text-align: center;
+    color: #1a1a1a;
+    margin-bottom: 1.5rem;
+    font-size: 1.8rem;
+}
+
+.timer-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 2rem;
+}
+
+.mode-btn {
+    padding: 8px 16px;
+    border: 1px solid #e0e0e0;
+    background: transparent;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.mode-btn:hover {
+    background: #f5f5f5;
+}
+
+.mode-btn.active {
+    background: #4a90e2;
+    color: white;
+    border-color: #4a90e2;
+}
+
+.timer-display {
+    text-align: center;
+    font-size: 4rem;
+    font-weight: bold;
+    margin: 2rem 0;
+    color: #1a1a1a;
+}
+
+.control-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.control-btn {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    background: #4a90e2;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+}
+
+.control-btn:hover {
+    background: #357abd;
+}
+
+.control-btn svg {
+    fill: currentColor;
+    width: 24px;
+    height: 24px;
+}
+
+.cl {
+    border: solid;
+    border-color: black;
+    color: black;
+    font-family: sans-serif;
+}
+.b2{
+    border: solid;
+    border-color: black;
+    color: black;
+    font-family: sans-serif;
+}
+.shortdec {
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 20px;
+    padding: 10px;
+    color: black;
+}
